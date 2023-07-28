@@ -34,13 +34,13 @@ taxonomies:
 #  enabled: false
 #
     - id: itis
-      enabled: true
+      enabled: false
       name: Integrated Taxonomic Information System
     - id: ncbi
-      enabled: true
+      enabled: false
       name: NCBI Taxonomy
     - id: discoverlife
-      enabled: true
+      enabled: false
       name: Discover Life Taxonomy
     - id: batnames
       enabled: false
@@ -49,7 +49,7 @@ taxonomies:
       enabled: false
       name: Catalogue of Life
     - id: gbif
-      enabled: false
+      enabled: true
       name: GBIF Backbone Taxonomy
     - id: globi
       enabled: false
@@ -70,7 +70,7 @@ taxonomies:
       enabled: false
       name: Plazi Treatments
     - id: tpt
-      enabled: false
+      enabled: true
       name: Terrestrial Parasite Tracker Taxonomies
     - id: wfo
       enabled: false
